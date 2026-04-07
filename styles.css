@@ -1,0 +1,46 @@
+body {
+    font-family: "IBM Plex Serif", serif;
+    background-image: url(https://res.cloudinary.com/aenetworks/image/upload/c_fill,ar_2,w_3840,h_1920,g_auto/dpr_auto/f_auto/q_auto:eco/v1/gettyimages-858637934?_a=BAVAZGB00);
+    color: yellow;
+    text-align: center;
+}
+
+header {
+    text-align: center;
+    color: red;
+    
+}
+
+footer {
+    text-align: center;
+    color: #FFD8A8;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+
+a {
+    color: red;
+    text-decoration: none;
+    font-size: large;
+}
+
+a:hover {
+    color: orange
+}
+
+.travel {
+    text-align: center;
+    font-size: x-large;
+    color: orangered;
+}
+
+@media (max-width: 500px) {
+    body {
+        background-image: url(https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/cd/70/9b/guano-point.jpg?w=1200&h=1200&s=1);
+        text-align: center;
+    }
+}
